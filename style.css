@@ -1,3 +1,4 @@
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -9,27 +10,76 @@ body {
 
 .clock {
     text-align: center;
-    background-color:teal;
-    width: 40%;
-    height: 50vh;
+    background-color: teal;
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 600px; /* Maximum width for larger screens */
+    height: auto; /* Allow height to adjust based on content */
     border-radius: 1rem;
+    padding: 20px; /* Increased padding for better spacing */
 }
-.sub_div{
+
+.sub_div {
     color: white;
     border-radius: .5rem;
-    margin: auto; 
-    width: 60%;
-    height: 25vh;
+    margin: auto;
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 400px; /* Maximum width for larger screens */
+    height: auto; /* Allow height to adjust based on content */
     padding: 16px;
-    box-shadow: 20px 20px 20px 0px rgb(0, 0, 0.7);
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.7); body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    .clock {
+        text-align: center;
+        background-color: teal;
+        width: 90%; /* Adjusted width for responsiveness */
+        max-width: 600px; /* Maximum width for larger screens */
+        height: auto; /* Allow height to adjust based on content */
+        border-radius: 1rem;
+        padding: 20px; /* Increased padding for better spacing */
+    }
+    
+    .sub_div {
+        color: white;
+        border-radius: .5rem;
+        margin: auto;
+        width: 90%; /* Adjusted width for responsiveness */
+        max-width: 400px; /* Maximum width for larger screens */
+        height: auto; /* Allow height to adjust based on content */
+        padding: 16px;
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.7); /* Adjusted box-shadow */
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #date {
+        font-size: 1.5rem; /* Adjusted font size for smaller screens */
+        margin-bottom: 10px;
+    }
+    
+    #time {
+        font-size: 3rem; /* Adjusted font size for smaller screens */
+    }
+     
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #date {
-    font-size: 24px;
+    font-size: 1.5rem; /* Adjusted font size for smaller screens */
     margin-bottom: 10px;
 }
 
 #time {
-    font-size: 48px;
+    font-size: 3rem; /* Adjusted font size for smaller screens */
 }
